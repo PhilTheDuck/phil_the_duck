@@ -40,7 +40,7 @@
         </div>
     </header>
     <div name="spinner">
-       <h2 align="center">You must consider, BUT!!! choose wizely...</h2>
+       <h2 align="center">You must consider, BUT!!! choose wizапавапапапрапаely...</h2>
         <style>
             img.rot {
                 animation: 1s linear 0s normal none infinite running rot;
