@@ -12,30 +12,39 @@
 	
 </head>
 <body>
-	 <header>
-	 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<div class="container">
-			<a class="navbar-brand" href="#">
-				<img src="img/1.jpg" width="30" height="30" alt="">
-			</a>
-			<div class="nav justify-content-end">
-				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Регистрация</a>
-					</li>
-				</ul>
-				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="text" placeholder="Логин" name="login">
-					<input class="form-control mr-sm-2" type="password" placeholder="Пароль" name="password">
-					<button class="btn btn-outline-success" type="submit">Войти</button>
-				</form>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="img/1.jpg" width="30" height="30" alt="">
+				</a>
+				<div class="nav justify-content-end">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Регистрация</a>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="text" placeholder="Логин" name="login">
+						<input class="form-control mr-sm-2" type="password" placeholder="Пароль" name="password">
+						<button class="btn btn-outline-success" type="submit">Войти</button>
+					</form>
+				</div>
 			</div>
-		</div>
-	</nav>
-	<div class="top-img">
-		
-	</div>
-	 </header>
+		</nav>
+		<div class="top-img">
+			
+			
+				<form class="form-inline">
+				<input type="text" class="form-control mr-sm-2" value="Введите запрос..." name="search">
+			
+			<button type="submit" class="btn btn-outline-success">Найти</button>
+		</form>
+</div>
+			
+			
+			
+	</header>
 	
 	
 
