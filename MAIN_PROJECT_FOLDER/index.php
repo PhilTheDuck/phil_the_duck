@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>кк</title>
+	<title>FindYourMate</title>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +18,7 @@
 				<div class="nav justify-content-start">
 
 					<a class="navbar-brand" href="#">
-						<img src="img/1.jpg" width="30" height="30" alt="">
+						<img src="img/1.png" width="248" height="173" alt="">
 					</a>
 
 
@@ -51,7 +51,7 @@
 			</div>
 		</nav>
 		<div class="top-img">
-			<h1>Умная фраза со смыслом</h1>
+			<h1 class="phrase">Умная фраза со смыслом</h1>
 			<div class="input-group">
 				<input type="text" class="form-control" placeholder="Введите запрос..." name="search" >
 				<div class="input-group-btn">
@@ -117,7 +117,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					<a href="index.php"><img src="img/1.jpg" width="30" height="30"></a>
+					<a href="index.php"><img src="img/1.png" width="248" height="173"></a>
 				</div>
 				<div class="col-md-4">
 					
