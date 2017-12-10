@@ -8235,3 +8235,9 @@ a.text-dark:focus, a.text-dark:hover {
   float: right;
   list-style: none;
 }
+.registration-form{ 
+background-color: var(--light-gray); 
+padding-top: 50px; 
+padding-bottom: 80px; 
+text-align: center; 
+}
