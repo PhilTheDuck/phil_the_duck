@@ -9,46 +9,132 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-	
+
 </head>
 <body>
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
-				<a class="navbar-brand" href="#">
-					<img src="img/1.jpg" width="30" height="30" alt="">
-				</a>
+				<div class="nav justify-content-start">
+
+					<a class="navbar-brand" href="#">
+						<img src="img/1.jpg" width="30" height="30" alt="">
+					</a>
+
+
+					<form class="mr-sm-2 form-inline" action="goposition.php" method="get">
+						<select class="custom-select">
+							<option selected>Ваш город</option>
+							<option value="1">Санкт-Петербург</option>
+							<option value="2">Москва</option>
+							<option value="3">Томск</option>
+						</select>
+					</form>
+
+				</div>
 				<div class="nav justify-content-end">
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 						<li class="nav-item">
 							<a class="nav-link" href="#">Регистрация</a>
 						</li>
 					</ul>
-					<form class="form-inline my-2 my-lg-0">
+					<form class="form-inline my-2 my-lg-0" action="login.php" method="post">
 						<input class="form-control mr-sm-2" type="text" placeholder="Логин" name="login">
 						<input class="form-control mr-sm-2" type="password" placeholder="Пароль" name="password">
 						<button class="btn btn-outline-success" type="submit">Войти</button>
 					</form>
+
 				</div>
+
+
+
 			</div>
 		</nav>
 		<div class="top-img">
-			
-			
-				<form class="form-inline">
-				<input type="text" class="form-control mr-sm-2" value="Введите запрос..." name="search">
-			
-			<button type="submit" class="btn btn-outline-success">Найти</button>
-		</form>
-</div>
-			
-			
-			
-	</header>
-	
-	
+			<h1>Умная фраза со смыслом</h1>
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Введите запрос..." name="search" >
+				<div class="input-group-btn">
+					<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Вы ищете...
+					</button>
+					<div class="dropdown-menu dropdown-menu-right">
+						<a class="dropdown-item" href="#">Команду</a>
+						<a class="dropdown-item" href="#">Участника команды</a>
+						<a class="dropdown-item" href="#">Другое</a>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-outline-primary">Найти</button>
+			</div>
 
-	
+		</div>
+	</header>
+	<div class="hobby-list">
+
+		<div class="container">
+			<div class="row">
+
+
+				<div class="col-md-4">
+					<ul>
+						<li><a href="">Музыка</a></li>
+						<li><a href="#">Барабаны</a></li>
+						<li><a href="#">Гитара</a></li>
+						<li><a href="#">Скрипка</a></li>
+						<li><a href="#">Соло</a></li>
+						<li><a href="#">Арфа</a></li>
+					</ul>
+
+				</div>
+				<div class="col-md-4">
+					<ul>
+						<li><a href="">Танцы и спорт</a></li>
+						<li><a href="#">Современные танцы</a></li>
+						<li><a href="#">Бальные танцы</a></li>
+						<li><a href="#">Акробатика</a></li>
+						<li><a href="#">Футбол</a></li>
+						<li><a href="#">Волейбол</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-4">
+					<ul>
+						<li><a href="">Изобразительное искусство</a></li>
+						<li><a href="#">Фото</a></li>
+						<li><a href="#">Портрет</a></li>
+						<li><a href="#">Живопись</a></li>
+						<li><a href="#">Скульптура</a></li>
+						<li><a href="#">Графика</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer-info">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="index.php"><img src="img/1.jpg" width="30" height="30"></a>
+				</div>
+				<div class="col-md-4">
+					
+				</div>
+				<div class="col-md-4 justify-content-end">
+					<ul>
+						<li>onetwo@mail.com</li>
+						<li>+79819656366</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		</div>
+	</footer>
+
+
 
 
 	<!-- Optional JavaScript -->
